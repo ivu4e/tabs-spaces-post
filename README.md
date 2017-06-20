@@ -6,9 +6,11 @@ output: html_document
 ---
 
 **NOTE**: This is the code (as an [R markdown](http://rmarkdown.rstudio.com/) file) behind the Stack Overflow blog post [Developers who use spaces make more money than those who use tabs](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/).** After cloning the repository, you can reproduce the results with
+
 ##数据下载
 -----
 [Stack Overflow 年度开发者调查](https://insights.stackoverflow.com/survey/?utm_source=so-owned&utm_medium=blog&utm_campaign=dev-survey-2017&utm_content=blog-link&utm_term=data)
+
 ```r
 library(knitr)
 knit("README.Rmd")
